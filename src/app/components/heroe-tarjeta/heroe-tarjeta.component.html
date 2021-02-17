@@ -3,7 +3,7 @@
     <img [src]="heroe.img" class="card-img-top" [alt]="heroe.nombre">
     <div class="card-body">
       <h5 class="card-title">{{heroe.nombre}}</h5>
-      <p class="card-text">{{heroe.bio}}</p>
+      <p class="card-text">{{heroe.bio | slice:0:125}}...</p>
       <div class="d-grid gap-2">
         <button (click)="verHeroe()" class="btn btn-outline-primary" type="button">Ver más...</button>
         <!--          <a [routerLink]="['/heroe',i]" class="btn btn-outline-primary" type="button">Ver más...</a>-->

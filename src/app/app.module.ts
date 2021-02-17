@@ -20,6 +20,7 @@ import { BuscadorComponent } from './components/buscador/buscador.component';
 import { HeroeTarjetaComponent } from './components/heroe-tarjeta/heroe-tarjeta.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
